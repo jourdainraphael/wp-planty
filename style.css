@@ -3,7 +3,7 @@ Theme Name:   Le teme de rapha
 Description:  Le teme de rapha
 Author:       Rapha Webs
 Author URI:   http://Rapha-Webs.com
-Template:     blankslate
+Template:     BlankSlate
 Version:      1.0.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,8 +19,10 @@ Text Domain:  blankslate-rapha
 
 
 * {
+    
     font-family: 'Syne', sans-serif;
 }
+
 
 a{
     text-decoration: none;
@@ -45,7 +47,15 @@ a{
 
 }
 
-#menu-nav_principal{
+/* #menu-nav_principal{
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    height: 80px;
+} */
+
+#menu{
     display: flex;
     display: flex;
     align-items: center;
@@ -53,25 +63,45 @@ a{
     height: 80px;
 }
 
-#menu-nav_principal a{
+/* #menu-nav_principal a{
+    color: inherit;
+    text-decoration: none;
+} */
+
+#menu{
     color: inherit;
     text-decoration: none;
 }
 
-.menu .menu-item,.menu-item:last-child :hover {
+.menu .menu-item {
     padding: 1em 4.6em;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.menu .menu-item:last-child {
+
+
+.menu-item:last-child {
     background-color: #DC9F96;
-    color: white;
+    padding: 1em 4.6em;
+    max-width: 236.86px;
+    text-align: center;
+   
 }
 
-.menu .menu-item:last-child :hover {
-    background-color: #c02e44;  
+
+
+
+.menu .menu-item:last-child:hover {
+    background-color: #c02e44;
+    padding: 1em 4.6em;
+    max-width: 236.86px;
+    text-align: center;
+}
+
+.menu .menu-item:last-child a:hover {
+    padding: 0;
 }
 
 /* titre h1 de page commander */
@@ -192,6 +222,9 @@ input[type='number'] {
     cursor: pointer;
 }
 
+#post-5 {
+    background-color: #3b8e46;
+}
 
 
 
