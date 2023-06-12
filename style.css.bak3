@@ -3,7 +3,7 @@ Theme Name:   Le theme de rapha
 Description:  Le theme de rapha
 Author:       Rapha Webs
 Author URI:   http://Rapha-Webs.com
-Template:     blankSlate
+Template:     BlankSlate
 Version:      1.0.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,9 @@ Text Domain:  blankslate-rapha
     font-family: 'Syne', sans-serif;
 }
 
-
+body {
+    background-color: #c02e44 !important;
+}
 
 a{
     text-decoration: none;
@@ -54,14 +56,14 @@ a{
 }
 
 
-#menu-nav_principal {
+#menu-nav_principal{
     display: flex;
     align-items: center;
     gap: 21px;
     height: 80px;
 }
 
-#menu-nav_principal a {
+#menu-nav_principal a{
     color: inherit;
     text-decoration: none;
 }
@@ -92,10 +94,12 @@ a{
     height: 100%;
     display: flex;
     align-items: center;
+    background-color: #af96dc !important;
 }
 
 .menu-item:last-child {
-    background-color: #DC9F96;
+    /* background-color: #DC9F96; */
+    background-color: #af96dc;
     padding: 1em 4.6em; 
     max-width: 236.86px;
     text-align: center;
@@ -113,6 +117,9 @@ a{
     padding: 0 ;
 }
 
+.entry-content {
+    background-color: green !important;
+}
 
 
 /* titre h1 de page commander */
@@ -222,9 +229,10 @@ input[type='number'] {
     border-radius: 0 0 5px 0;
 }
 
-
 .btn-ok {
-    background-color: #e0b9b4;
+    background-color: red;
+
+    /* background-color: #e0b9b4; */
     border: none;
     border-radius: 5px;
     margin-top: 1em;
@@ -242,14 +250,12 @@ input[type='number'] {
 
 /*   footer   */
 
-#footer {
+#footer{
     text-align: center;
-    padding-top: 20.5px;
     font-family: 'Syne', sans-serif;
-    min-height: 60px;
 }
 
-#footer a {
+#footer a{
     text-decoration: none;
     color: inherit;
 }
