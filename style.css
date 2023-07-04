@@ -44,7 +44,6 @@ a{
 
 #menu {
     font-family: 'Syne', sans-serif;
-    /* le test pour nous */
     display: flex;
     align-items: center;
     gap: 21px;
@@ -65,27 +64,7 @@ a{
     color: inherit;
     text-decoration: none;
 }
-/* .menu .menu-item,.menu-item:last-child :hover {
-    padding: 1em 4.6em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
 
-.menu .menu-item:last-child {
-    padding: 1em 4.6em;
-    max-width: 236.86px;
-    background-color: #DC9F96;
-    color: white;
-}
-
-.menu .menu-item:last-child :hover {
-    background-color: #c02e44;  
-}
-
-.menu .menu-item:last-child a:hover {
-    padding: 0;
-} */
 
 .menu .menu-item {
     padding: 1em 4.6em;
@@ -125,14 +104,6 @@ a{
 .separateur1 , .separateur2 {
     max-width: 860px;
 }
-
-/* h1.entry-title {
-    text-align: center;
-    font-size: 38px;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-} */
 
 .formulaire {
     display: flex;
@@ -180,9 +151,11 @@ h3 {
     font-weight: 800;
     font-family: 'syne', sans-serif;
 }
+
 .input-controller {
     max-width: 192px;
 }
+
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -244,6 +217,7 @@ input[type='number'] {
     color: white;
     cursor: pointer;
 }
+
  /* css perspnnalisé */
 
  #container {
@@ -291,6 +265,7 @@ input[type='number'] {
 .elementor-section.elementor-section-boxed > .elementor-container {
     max-width: 822px;
 }
+
 .elementor-section.elementor-section-boxed>.elementor-container {
 	max-width: 822px;
 }
@@ -343,29 +318,16 @@ margin-right: 60px;
 }
 
 .elementor-35 .elementor-element.elementor-element-d1fd8d2:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-35 .elementor-element.elementor-element-d1fd8d2 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-position: 60px 431px !important;
-  
+    background-position: 60px 431px !important; 
 }
 
-/* .btn-envoi, .btn-envoi2  { 
-	display: none;
 
-
-} */
-
-/* .btn-envoi2 {
-	margin: auto!important
-} */
 
 #btn-page-command {
 	max-height: 55px;
 	max-width: 198px;
 	border-radius: 5px;
-
 }
-
-
-
 
 div.wpforms-container-full .wpforms-field-label {
 	font-family: 'syne';
@@ -385,12 +347,13 @@ div.wpforms-container-full .wpforms-field-label {
 .column-form:first-child {
 	border-right: 1px solid white;
 }
+
 .form-container h2 {
 	font-size: 30px;
 	font-family: 'syne';
 	font-weight: 700;
 	margin-top: 0px !important;
-	padding-top: 0px !important
+	padding-top: 0px !important;
 }
 
 .form-container  label {
