@@ -99,6 +99,7 @@ a{
     padding: 1em 4.6em; 
     max-width: 236.86px;
     text-align: center;
+    color: white;
    
 }
 
@@ -113,17 +114,25 @@ a{
     padding: 0 ;
 }
 
+/* titres des pages */
 
+.page .entry-title {
+    display: none;
+}
 
 /* titre h1 de page commander */
 
-h1.entry-title {
+.separateur1 , .separateur2 {
+    max-width: 860px;
+}
+
+/* h1.entry-title {
     text-align: center;
     font-size: 38px;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
-}
+} */
 
 .formulaire {
     display: flex;
@@ -168,6 +177,8 @@ h3 {
     color: white;
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 800;
+    font-family: 'syne', sans-serif;
 }
 .input-controller {
     max-width: 192px;
@@ -233,11 +244,184 @@ input[type='number'] {
     color: white;
     cursor: pointer;
 }
+ /* css perspnnalisé */
+
+ #container {
+	background-color: #ECE2DA;
+}
+
+.first-p {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+}
+
+.img-white {
+	max-height: 415px;
+	width: 100%;
+}
+
+.img-title1, .img-title2, .img-title3, .img-title4  {
+	max-width:394px;
+}
+
+
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+	display: flex;
+	justify-content:center;
+	padding: 20px 15px;
+}
+
+.elementor-64 .elementor-element.elementor-element-b882b0c > .elementor-widget-container,.elementor-64 .elementor-element.elementor-element-490582f > .elementor-widget-container, .elementor-64 .elementor-element.elementor-element-7c87b77 > .elementor-widget-container, .elementor-64 .elementor-element.elementor-element-24b4f4e > .elementor-widget-container { 
+	min-height: 263px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 263px;
+}
+
+.elementor-64 .elementor-element.elementor-element-024b3c9 .elementor-button {
+	min-width: 198px;
+	max-height: 55px;
+	border-radius: 5px;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 822px;
+}
+.elementor-section.elementor-section-boxed>.elementor-container {
+	max-width: 822px;
+}
+
+.last-section-page {
+	min-height: 638px;
+}
+
+.p-fatiha {
+	text-align: justify;
+}
+
+.prenom1 {
+	text-align: center;
+}
+
+.elementor-35 .elementor-element.elementor-element-f5b6ca0 > .elementor-background-overlay {
+margin-right: 60px;
+}
+
+
+.wpforms-container .wpforms-field {
+	max-width: 383px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wpforms-container input.wpforms-field-medium {
+	max-width: 383px;
+}
+
+.wpforms-container textarea.wpforms-field-large {
+	max-width: 383px;
+	min-height: 237px;
+}
+
+#wpforms-submit-46, .wpforms-submit, .wpforms-submit:hover {
+	background-color: #e0b9b4;
+	min-width: 198px;
+	border-radius: 5px;
+	min-height: 55px;
+}
+
+.wpforms-container .wpforms-submit-container {
+	text-align: center;
+}
+
+#post-5 {
+	background-color: #3b8e46;
+}
+
+.elementor-35 .elementor-element.elementor-element-d1fd8d2:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-35 .elementor-element.elementor-element-d1fd8d2 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-position: 60px 431px !important;
+  
+}
+
+/* .btn-envoi, .btn-envoi2  { 
+	display: none;
+
+
+} */
+
+/* .btn-envoi2 {
+	margin: auto!important
+} */
+
+#btn-page-command {
+	max-height: 55px;
+	max-width: 198px;
+	border-radius: 5px;
+
+}
 
 
 
 
+div.wpforms-container-full .wpforms-field-label {
+	font-family: 'syne';
+	font-size: 20px;
+	font-weight: 400;
+}
 
+.form-informations {
+	max-height: 400px;
+}
+
+.form-container {
+	display:flex;
+	justify-content: center !important;	
+}
+
+.column-form:first-child {
+	border-right: 1px solid white;
+}
+.form-container h2 {
+	font-size: 30px;
+	font-family: 'syne';
+	font-weight: 700;
+	margin-top: 0px !important;
+	padding-top: 0px !important
+}
+
+.form-container  label {
+	font-family: 'syne';
+	color: white;
+	font-size: 20px;
+}
+.column-form2, .column-form {
+ 
+    max-height: 403px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.wpcf7-form-control, .wpcf7-text .wpcf7-validates-as-required {
+  padding: 20px !important;
+	border: none !important;
+	border-radius: 7px !important;
+	margin-top: 13px !important;
+	margin-bottom: 30px;
+	margin-right: 30px;	
+}
+
+.wpcf7-submit {
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #e0b9b4;
+	min-width: 198px;
+	max-height: 55px;
+}
 
 
 /*   footer   */
@@ -247,6 +431,7 @@ input[type='number'] {
     padding-top: 20.5px;
     font-family: 'Syne', sans-serif;
     min-height: 60px;
+    max-height: 60px !important;
 }
 
 #footer a {

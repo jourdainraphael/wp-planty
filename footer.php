@@ -2,7 +2,7 @@
 
 </div>
 <footer id="footer" role="contentinfo">
-    <a href="#">Mention légales</a>
+    <a href="http://localhost/newPlanty/mentions-legales/">Mention légales</a>
 </footer>
 </div>
 <?php wp_footer(); ?>
